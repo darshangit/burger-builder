@@ -1,9 +1,13 @@
+import Layout from "./components/Layout/Layout";
+import Aux from "./hoc/Aux";
 
 function App() {
   return (
-    <div>
-    
-    </div>
+    <Aux>
+      <Layout>
+        <p>Test</p>
+      </Layout>
+    </Aux>
   );
 }
 
