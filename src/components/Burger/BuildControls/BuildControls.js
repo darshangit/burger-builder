@@ -1,3 +1,4 @@
+import Aux from "../../../hoc/Aux";
 import BuildControl from "./BuildControl/BuildControl";
 import classes from "./BuildControls.module.css";
 
@@ -22,6 +23,7 @@ const BuildControls = (props) => (
         disabled={props.disabled[ctrl.type]}
       />
     ))}
+    <button className={classes.OrderButton} disabled={!props.purchasable}>ORDER NOW</button>
   </div>
 );
 
