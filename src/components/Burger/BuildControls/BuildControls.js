@@ -1,4 +1,3 @@
-import Aux from "../../../hoc/Aux";
 import BuildControl from "./BuildControl/BuildControl";
 import classes from "./BuildControls.module.css";
 
